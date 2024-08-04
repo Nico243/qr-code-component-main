@@ -21,15 +21,16 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     max-width: 300px;
 }
 
 .qr-cont {
     background-color: #4d97ff;
-    padding: 10px;
     margin-bottom: 5px;
     border-radius: 10px;
+    max-width: auto;
+    max-height: auto;
 }
 
 .qr-cont img {
