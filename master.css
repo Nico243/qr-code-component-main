@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+}
+
+.outer-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9e8fc;
+    width: 100%;
+    height: 100vh;
+}
+
+.card-cont {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.qr-cont {
+    background-color: #4d97ff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.qr-cont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-cont {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-cont {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+.card-cont a {
+    color: #4d153f;
+    text-decoration: none;
+}
+
+.card-cont a:hover {
+    text-decoration: underline;
+}
+
+.card-cont button {
+    background-color: #4d97ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 15px;
+    color: #918989;
+    /* Set font size for paragraphs */
+}
