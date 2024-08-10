@@ -1,0 +1,64 @@
+                body {
+                    font-family: ;
+                    background-color: hsl(212, 45%, 89%);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0:
+                }
+                
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: white;
+                    border-radius: 0.9375rem;
+                    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 1.0);
+                    padding: 1.25rem;
+                    max-width: 20rem;
+                    max-height: 31.25rem;
+                    margin: 1.25rem;
+                }
+                
+                .card {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .qr-code {
+                    max-width: 100%;
+                    border: 0.625;
+                    border-radius: 0.5rem;
+                }
+                
+                .text-container {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 1.25rem;
+                    width: 100%;
+                }
+                
+                .text-container h1 {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 900;
+                    font-size: 1.25rem;
+                    letter-spacing: 0.0375rem;
+                    color: black;
+                    margin-bottom: 0.625rem;
+                    max-width: 16.6875rem;
+                    max-height: 3.375rem;
+                }
+                
+                .text-container p {
+                    font-size: 0.875rem;
+                    color: gray;
+                    max-width: 16.0625rem;
+                    max-height: 4rem;
+                    letter-spacing: 0.0625rem;
+                    line-height: 1.25rem;
+                }
